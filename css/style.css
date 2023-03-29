@@ -1,0 +1,131 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.tut{
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.menu{
+    background-color: #dcdfe1;
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration:line-through;
+}
+.main_text{
+    font-size: 30px;
+    color: #E9ECEF;
+    background-color: #E9ECEF;
+    text-align: center;
+}
+button{
+    text-align: center;
+}
+.menu_button{
+    position: fixed;
+}
+.btn-group{
+    background-color: blue;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+/*table*/
+tr{
+    font-size: 20px;
+    text-align: center;
+}
+.pdfs{
+    color: black; 
+    font-size: 25px;
+}
+.pdfs:hover{
+    color: blue;
+    text-decoration: dashed;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+/*footer*/
+.dummy_page {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #E9ECEF;
+}
+
+.footer .col {
+    width: 400px;
+    height: 140px;
+    margin-left: 100px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    font-weight: normal;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+
+.clearfix {
+    clear: both;
+}
+/*media*/
+@media(max-width: 1024px){
+    .tut{
+        width: 300px;
+        height: 200px;
+        margin-left: 100px;
+    }
+}
